@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>LITMUS</title>
+        <link rel="stylesheet"  type="text/css"  href="css/ralewaystyles.css">
+        <link rel="stylesheet"  type="text/css"  href="css/square.css">
+    </head>
+
+    <body>
+        <h1 style="line-height: 0.1px;">LITMUS</h1>
+        <p>your guide to colour psychology</p>
+        <h2>pick up to 3 colours to test:</h2>
+        <div id="squares">
+            <div id="square1" onclick = "clicked1()"></div>
+            <div id="square2" onclick = "clicked2()"></div>
+            <div id="square3" onclick = "clicked3()"></div>
+            <div id="square4" onclick = "clicked4()"></div>
+            <div id="square5" onclick = "clicked5()"></div>
+            <div id="square6" onclick = "clicked6()"></div>
+            <div id="square7" onclick = "clicked7()"></div>
+            <div id="square8" onclick = "clicked8()"></div>
+            <div id="square9" onclick = "clicked9()"></div>
+        </div>
+        <h1 onclick = "clickedTest()">TEST</h1>
+
+        <script>
+            function clicked1(){
+                    document.getElementById('square1').style.cssText = 'display:block; float: center; border: solid 1px #000000; background-color: #de0201; width: 60px; height: 60px; margin-left: auto; margin-right: auto;';
+            }
+            function clicked2(){
+                    document.getElementById('square2').style.cssText = 'display:block; float: center; border: solid 1px #000000; background-color: #fe6600; width: 60px; height: 60px; margin-left: auto; margin-right: auto;';
+            }
+            function clicked3(){
+                    document.getElementById('square3').style.cssText = 'display:block; float: center; border: solid 1px #000000; background-color: #fff000; width: 60px; height: 60px; margin-left: auto; margin-right: auto;';
+            }
+            function clicked4(){
+                    document.getElementById('square4').style.cssText = 'display:block; float: center; border: solid 1px #000000; background-color: #099802; width: 60px; height: 60px; margin-left: auto; margin-right: auto;';
+            }
+            function clicked5(){
+                    document.getElementById('square5').style.cssText = 'display:block; float: center; border: solid 1px #000000; background-color: #0966ce; width: 60px; height: 60px; margin-left: auto; margin-right: auto;';
+            }
+            function clicked6(){
+                    document.getElementById('square6').style.cssText = 'display:block; float: center; border: solid 1px #000000; background-color: #670099; width: 60px; height: 60px; margin-left: auto; margin-right: auto;';
+            }
+            function clicked7(){
+                    document.getElementById('square7').style.cssText = 'display:block; float: center; border: solid 1px #000000; background-color: #dc01a5; width: 60px; height: 60px; margin-left: auto; margin-right: auto;';
+            }
+            function clicked8(){
+                    document.getElementById('square8').style.cssText = 'display:block; float: center; border: solid 1px #000000; background-color: #ffffff; width: 60px; height: 60px; margin-left: auto; margin-right: auto;';
+            }
+            function clicked9(){
+                    document.getElementById('square9').style.cssText = 'display:block; float: center; border: solid 1px #000000; background-color: #000000; width: 60px; height: 60px; margin-left: auto; margin-right: auto;';
+            }
+            elemText = document.GetElementsByTagName("h1");
+            elemText.onmouseover
+
+            function clickedTest(){
+                    document.getElementsByTagName("h1").style.cssText = 'font-size: 35px;';
+            }
+        </script>
+    </body>
+</html>
